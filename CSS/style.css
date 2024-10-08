@@ -1,0 +1,258 @@
+/*FONT STYLE*/
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 40px;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .poppins-black-special {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-left: 80px;
+  }
+
+  .letter-guion {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 60px;
+  }
+
+/*BUTTON STYLE*/
+.button2 {
+  background-color: white;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 4px;
+  height: 80px;
+  width: 200px;
+}
+
+.buttona {
+  display: inline-block;
+  background-color: black;
+  border-radius: 5px;
+  border-color: black;
+  background-repeat: no-repeat;
+  padding: 2px 4px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: white;
+  max-width: 200px;
+  min-width: 150px;
+}
+.buttona:hover {
+  background-color: rgb(40, 40, 44);
+}
+
+.button-position {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/*HR STYLE*/
+hr {
+  background-color: black;
+  height: 0.5px;
+}
+
+/*SPACED OF BANNER BUTTONS*/
+.padre {
+  text-align: center;
+  display: inline-block;
+  margin-left: 102px;
+  margin-right: 95px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 100%;
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner img {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+/*DOWN PAGE BANNER*/
+.down-banner {
+  height: auto;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: rgb(67, 67, 67);
+  text-decoration: none;
+}
+
+/*MARK OF TITLES*/
+.mark-titles {
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+
+/*BR HEIGHT*/
+.br2 {
+  height: 40px;
+}
+
+/*DOWNLOAD BUTTON*/
+.download-button {
+  display: inline-block;
+  padding: 2.5px 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 120px;
+}
+
+.download-button:hover {
+  background-color: grey;
+}
+
+/*BOXES OF PORTFOLIO PROJECTS*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  flex: 1 1 45%;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box-index {
+  flex: 1 1 45%;
+  padding: 15px;
+  text-align: justify;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.box-loremipsum {
+  text-align: justify;
+  color: black;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+/*STYLES BUTTONS PORTFOLIO*/
+.portfolio-buttons {
+  display: inline-block;
+  padding: 7px 14px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.portfolio-buttons:hover {
+  background-color: grey;
+}
+
+/*PHOTO BORDER*/
+.photo {
+  border-radius: 80px;
+}
+
+.photo-container {
+  display: flex;
+  padding: 1.5px 3px;
+  background-color: rgb(4, 18, 126);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/*Download button of portfolio*/
+.download-button-portfolio {
+  display: inline-flexbox;
+  padding: 5px 10px;
+  background-color: rgb(14, 14, 161);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 120px;
+  margin-left: 15px;
+}
+
+.download-button-portfolio:hover {
+  background-color: grey;
+}
